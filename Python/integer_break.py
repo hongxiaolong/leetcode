@@ -18,15 +18,14 @@ class Solution(object):
         return r * n
 
 
-
-class BinaryCase(unittest.TestCase):
+class IntegerBreakCase(unittest.TestCase):
     def setUp(self):
         pass
 
     def tearDown(self):
         pass
 
-    def test_add_binary(self):
+    def test_integer_break(self):
         s = Solution()
         for n, r in [(2, 1), (10, 36), (8, 18), (58, 1549681956)]:
             self.assertEqual(s.integerBreak(n), r)
