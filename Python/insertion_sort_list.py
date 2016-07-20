@@ -9,6 +9,7 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     # @param {ListNode} head
     # @return {ListNode}
@@ -62,7 +63,7 @@ class InsertionCase(unittest.TestCase):
     def test_insertion_sort_list(self):
         s = Solution()
         for arr in [[], [1], [1, 3, 2], [0, 1, 1, 2], [1, -2, 3, 0],
-                [4, 19, 14, 5, -3, 1, 8, 5, 11, 15]]:
+                    [4, 19, 14, 5, -3, 1, 8, 5, 11, 15]]:
             lst = self._array_to_list(arr)
             reversed_lst = s.insertionSortList(lst)
             ret = self._list_to_array(reversed_lst)

@@ -36,7 +36,7 @@ class Stack(object):
         return len(self.stack) == 0
 
 
-class BinaryCase(unittest.TestCase):
+class StackCase(unittest.TestCase):
     def setUp(self):
         pass
 

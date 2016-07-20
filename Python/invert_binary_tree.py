@@ -43,7 +43,7 @@ class InvertTreeCase(unittest.TestCase):
             if i * 2 + 1 < len(array) and array[i * 2 + 1] != '#':
                 node.right = TreeNode(array[i * 2 + 1])
                 _tree(node.right, array, i * 2 + 1)
-            
+
         root = TreeNode(array[1])
         _tree(root, array, 1)
         return root
@@ -51,7 +51,7 @@ class InvertTreeCase(unittest.TestCase):
     def _tree_to_array(self, root):
         if not root:
             return []
-        
+
         # Level traverse
         l, q, node = [], [], root
         while node:
@@ -70,7 +70,7 @@ class InvertTreeCase(unittest.TestCase):
                          (['#'], []),
                          (['#', 1], [1]),
                          (['#', 1, 2], [1, 2]),
-                         (['#', 1, 2, 4, '#', 3, 5, 6], 
+                         (['#', 1, 2, 4, '#', 3, 5, 6],
                           [1, 4, 2, 6, 5, 3])]:
             tree = self._array_to_tree(arr)
             inverted_tree = s.invertTree(tree)

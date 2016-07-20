@@ -22,7 +22,6 @@ class Solution:
         return majority
 
 
-
 class MajorityElementCase(unittest.TestCase):
     def setUp(self):
         pass
