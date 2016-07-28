@@ -25,7 +25,7 @@ class RemoveElementCase(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_add_binary(self):
+    def test_remove_element(self):
         s = Solution()
         for arr_bef, v, arr_aft, l in [
             ([3, 2, 2, 3], 3, [2, 2], 2),

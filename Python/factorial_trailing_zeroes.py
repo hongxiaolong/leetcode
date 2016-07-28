@@ -24,7 +24,7 @@ class TrailingZeroesCase(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_add_binary(self):
+    def test_trailing(self):
         s = Solution()
         for a, b in [(0, 0),
                      (1, 0),
