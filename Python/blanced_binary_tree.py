@@ -15,7 +15,6 @@ class BinaryTree(object):
     def __init__(self, arr):
 
         self.root = self._arr_to_tree_(arr)
-        self.arr = self._tree_to_arr_(self.root)
 
     def _arr_to_tree_(self, arr):
 
@@ -38,54 +37,54 @@ class BinaryTree(object):
 
         return root
 
-    def _tree_to_arr_(self, root):
+
+class Solution(object):
+    def isBalanced(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+        def h(node):
+            l, r = (0, 0), (0, 0)
+            if node.left:
+                l = h(node.left)
+            if node.right:
+                r = h(node.right)
+            return (max(l) + 1, max(r) + 1)
 
         if not root:
-            return []
+            return True
 
-        queue, arr = [root], [root.val]
+        lh, rh = h(root)
+        if abs(lh - rh) <= 1:
+            return self.isBalanced(root.left) and self.isBalanced(root.right)
 
-        while len(queue):
-            node = queue.pop()
-            if node.left:
-                queue.insert(0, node.left)
-                arr.append(node.left.val)
-            else:
-                arr.append(None)
-
-            if node.right:
-                queue.insert(0, node.right)
-                arr.append(node.right.val)
-            else:
-                arr.append(None)
-
-        for i in xrange(len(arr) - 1, -1, -1):
-            if arr[i] is None:
-                arr.pop()
-                continue
-            break
-
-        return arr
+        return False
 
 
-class BinaryTreeCase(unittest.TestCase):
+class BlancedBinaryTreeCase(unittest.TestCase):
     def setUp(self):
         pass
 
     def tearDown(self):
         pass
 
-    def test_binary_tree(self):
-        for arr in [[], [0], [0, 1], [0, 1, 2], [0, 1, None, None, None],
-                    [0, 1, 2, None, 3, None, 4],
-                    [0, 1, 2, None, 3, None, 4, None, None, 6, None, 7, 8]]:
+    def test_blanced_binary_tree(self):
+        s = Solution()
+        for arr, ret in [([], True),
+                         ([0], True),
+                         ([0, 1], True),
+                         ([0, 1, 2], True),
+                         ([0, 1, 2, None, 3, None, None, 4], False),
+                         ([1, 2, 2, 3, None, None, 3, 4, None, None, 4],
+                          False)]:
             tree = BinaryTree(arr)
             for i in xrange(len(arr) - 1, -1, -1):
                 if arr[i] is None:
                     arr.pop()
                     continue
                 break
-            self.assertEqual(arr, tree.arr)
+            self.assertEqual(s.isBalanced(tree.root), ret)
 
 
 if __name__ == '__main__':
