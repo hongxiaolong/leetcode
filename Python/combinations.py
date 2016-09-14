@@ -36,7 +36,7 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         if n < 2:
-            return [1]
+            return [[1]]
 
         self.res = []
         tmp = []
@@ -62,7 +62,7 @@ class CombineCase(unittest.TestCase):
 
     def test_combine(self):
         s = Solution()
-        for i, o in [((1, 1), [1]),
+        for i, o in [((1, 1), [[1]]),
                      ((2, 2), [[1, 2]]),
                      ((3, 2), [[1, 2], [1, 3], [2, 3]]),
                      ((4, 3), [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]])]:
