@@ -68,11 +68,11 @@ class ListNodesCase(unittest.TestCase):
 
     def test_mid(self):
         for arr, m in [([], None),
-                         ([1], 1),
-                         ([0, 1], 0),
-                         ([1, 2, 3], 2),
-                         ([1, -2, 3, 0], -2),
-                         ([4, 19, 14, 5, -3, 0, 1, 8, 5, 11, 15], 0)]:
+                       ([1], 1),
+                       ([0, 1], 0),
+                       ([1, 2, 3], 2),
+                       ([1, -2, 3, 0], -2),
+                       ([4, 19, 14, 5, -3, 0, 1, 8, 5, 11, 15], 0)]:
             lns = ListNodes()
             head = lns.array_to_list(arr)
             mid = lns.mid(head)
