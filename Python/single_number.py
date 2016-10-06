@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""136. Single Number
+
+Given an array of integers, every element appears twice except for one. Find that single one.
+
+Note:
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+Source : https://leetcode.com/problems/single-number/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

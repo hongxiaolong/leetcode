@@ -1,5 +1,21 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
+# !/usr/bin/env python
+
+"""67. Add Binary
+
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+
+Source : https://leetcode.com/problems/add-binary/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

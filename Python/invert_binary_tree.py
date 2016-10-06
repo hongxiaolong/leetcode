@@ -1,5 +1,28 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""226. Invert Binary Tree
+
+Invert a binary tree.
+
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+to
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+
+Source : https://leetcode.com/problems/invert-binary-tree/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

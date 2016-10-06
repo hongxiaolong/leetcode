@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""100. Same Tree
+
+Given two binary trees, write a function to check if they are equal or not.
+
+Two binary trees are considered equal if they are structurally identical
+and the nodes have the same value.
+
+Source : https://leetcode.com/problems/same-tree/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

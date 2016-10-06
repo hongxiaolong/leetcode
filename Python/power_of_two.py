@@ -1,5 +1,16 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""231. Power of Two
+
+Given an integer, write a function to determine if it is a power of two.
+
+Source : https://leetcode.com/problems/power-of-two/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

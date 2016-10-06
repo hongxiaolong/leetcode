@@ -1,5 +1,16 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # encoding: utf-8
+
+"""147. Insertion Sort List
+
+Sort a linked list using insertion sort.
+
+Source : https://leetcode.com/problems/insertion-sort-list/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

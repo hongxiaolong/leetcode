@@ -1,5 +1,17 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""23. Merge k Sorted Lists
+
+Merge k sorted linked lists and return it as one sorted list.
+Analyze and describe its complexity.
+
+Source : https://leetcode.com/problems/merge-k-sorted-lists/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

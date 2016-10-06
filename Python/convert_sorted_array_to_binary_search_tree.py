@@ -1,5 +1,17 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # encoding: utf-8
+
+"""108. Convert Sorted Array to Binary Search Tree
+
+Given an array where elements are sorted in ascending order,
+convert it to a height balanced BST.
+
+Source : https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

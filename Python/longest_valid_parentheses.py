@@ -1,5 +1,23 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+"""32. Longest Valid Parentheses
+
+Given a string containing just the characters '(' and ')',
+find the length of the longest valid (well-formed) parentheses substring.
+
+For "(()", the longest valid parentheses substring is "()",
+which has length = 2.
+
+Another example is ")()())", where the longest valid parentheses
+substring is "()()", which has length = 4.
+
+Source : https://leetcode.com/problems/longest-valid-parentheses/
+Author : hongxiaolong
+Date   : 2016-10-06
+
+"""
+
 import unittest
 
 

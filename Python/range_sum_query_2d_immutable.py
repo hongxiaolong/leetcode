@@ -29,9 +29,9 @@ There are many calls to sumRegion function.
 You may assume that row1 ≤ row2 and col1 ≤ col2.
 
 
-Source : https://leetcode.com/problems/symmetric-tree/
+Source : https://leetcode.com/problems/range-sum-query-2d-immutable/
 Author : hongxiaolong
-Date   : 2016-10-01
+Date   : 2016-10-06
 
 """
 
