@@ -38,8 +38,8 @@ class Solution(object):
         if n1 == 0 or n2 == 0:
             return []
 
-        nums1.sorted()
-        nums2.sorted()
+        nums1.sort()
+        nums2.sort()
 
         lst = []
         i, j = 0, 0
