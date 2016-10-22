@@ -3,14 +3,13 @@ LeetCode
 
 ###LeetCode Algorithm
 
-(Notes: "&hearts;" means you need to buy a book from Leetcode)
+*(Notes: All solutions are accepted in Leetcode)*
 
-(Notes: All solutions are accepted in Leetcode)
-
-(Notes: All solutions are tested with Python unittest)
+*(Notes: All solutions can be tested with Python unittest)*
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|372|[Super Pow](https://leetcode.com/problems/super-pow/) | [Python](./Python/super_pow.py)|Medium|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./Python/intersection_of_two_arrays_ii.py)|Easy|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/) | [Python](./Python/integer_break.py)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Python](./Python/coin_change.py)|Medium|
