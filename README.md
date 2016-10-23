@@ -9,6 +9,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](./Python/guess_number_higher_or_lower.py)|Medium|
 |372|[Super Pow](https://leetcode.com/problems/super-pow/) | [Python](./Python/super_pow.py)|Medium|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./Python/intersection_of_two_arrays_ii.py)|Easy|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/) | [Python](./Python/integer_break.py)|Medium|
