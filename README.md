@@ -62,6 +62,7 @@ LeetCode
 |33|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./Python/search_in_rotated_sorted_array.py)|Hard|
 |32|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [Python](./Python/longest_valid_parentheses.py)|Hard|
 |27|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| [Python](./Python/remove_element.py)|Easy|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Python/remove_duplicates_from_sorted_array.py)|Easy|
 |25|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./Python/reverse_nodes_in_k_group.py)|Hard|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Python/merge_k_sorted_lists.py)|Hard|
 |22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [Python](./Python/generate_parentheses.py)|Medium|
