@@ -63,17 +63,12 @@ class Solution(object):
         nodeA, nodeB = headA, headB
 
         while nodeA:
-            endA = nodeA
             nodeA = nodeA.next
             nA += 1
     
         while nodeB:
-            endB = nodeB
             nodeB = nodeB.next   
             nB += 1
-
-        if nodeA != nodeB:
-            return None
 
         nodeA, nodeB = headA, headB
 

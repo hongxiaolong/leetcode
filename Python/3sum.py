@@ -62,10 +62,10 @@ class ThreeSumCase(unittest.TestCase):
 
     def test_three_sum(self):
         s = Solution()
-        for a, b in [([-1, 0, 1, 2, -1, -4], [[-1, -1, 2], [-1, 0, 1]]),
+        for i, o in [([-1, 0, 1, 2, -1, -4], [[-1, -1, 2], [-1, 0, 1]]),
                      ([], []),
                      ([-2, 0, 1, 1, 2], [[-2, 0, 2], [-2, 1, 1]])]:
-            self.assertEqual(s.threeSum(a), b)
+            self.assertEqual(s.threeSum(i), o)
 
 
 if __name__ == '__main__':

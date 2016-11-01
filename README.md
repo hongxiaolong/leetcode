@@ -71,6 +71,7 @@ LeetCode
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [Python](./Python/3sum_closest.py)|Medium|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)| [Python](./Python/3sum.py)|Medium|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [Python](./Python/zigzag_conversion.py)|Easy|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./Python/longest_substring_without_repeating_characters.py)|Medium|
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [Python](./Python/add_two_numbers.py)|Medium|
 
 
